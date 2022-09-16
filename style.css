@@ -1,8 +1,33 @@
-header h1 {
-  color: #eff0e5;
+/* Styling the portfolio */
+
+
+h1 {
+  color: black;
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'serif',georgia ;
   font-size: 56px;
+}
+h2 { 
+  color:black;
+  background:antiquewhite;
+  text-align:center;
+  font-family: 'serif',georgia ;
+  font-size:35px;
+}
+body {
+  color:black;
+  margin:20px;
+  background:aliceblue;
+  padding:20px;
+  font-family: 'serif', georgia;
+  font-size:15px;
+}
+footer {
+  color:black;
+  background:antiquewhite;
+  text-align:center;
+  font-family: 'serif',georgia ;
+  font-size:35px;
 }
