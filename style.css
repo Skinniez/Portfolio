@@ -90,14 +90,14 @@ hr {
 }
 
 a:link {
-	color:blueviolet;
+	color:black;
 }
 a:visited {
-	color:royalblue;
+	color:blue;
 }
 a:hover {
-	color:peachpuff;
+	color:green;
 }
 a:active {
-	color:aqua;
+	color:white;
 }
