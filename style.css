@@ -12,16 +12,12 @@ body {
 p {
 	font-size:16;
 }
-div.parent {
-	text-align: center;
-	}
+
 ul { 
 	display: inline-block; 
 	text-align: left; 
 	}
-div.parent2 {
-	text-align:center
-}
+
 ol {
 	display:inline-block;
 	text-align:left;
