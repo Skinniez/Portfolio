@@ -9,6 +9,9 @@ body {
 	background-color: #9b9b9b;
 	text-align:center;
 }
+p {
+	font-size:16;
+}
 div.parent {
 	text-align: center;
 	}
@@ -66,7 +69,7 @@ h3 {
   font-size: 26px;
 }
 h4 {
-	font-size: 26px;
+	font-size: 18px;
 }
 img,
 iframe {
@@ -80,7 +83,7 @@ iframe {
 
 footer {
 	font-family:serif, georgian;
-	font-size:20px;
+	font-size:18px;
 	text-align:right;
 }
 hr {
