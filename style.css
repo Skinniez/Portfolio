@@ -1,13 +1,24 @@
 /* Styling the portfolio */
-
+html {
+	size:100%;
+	scale:100%;
+}
 body {
 	margin: 0;
 	font-family: serif, georgian;
 	background-color: #9b9b9b;
+	text-align:center;
+}
+li {
+	text-align:center;
+	list-style-position:inside;
 }
 header {
-	height:150px;
-	background-color: #e7e7e7;
+	height:180px;
+	font-family: serif,georgian;
+	font-size:80px;
+	text-align:center;
+	
 }
 
 .logo. {
@@ -26,13 +37,12 @@ header h2 {
 	font-size: 20px;
 	text-align:center;
 }
-h1,
 h2,
 h3 {
   font-family: serif,georgian;
   color: #0A0A0A;
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h1 {
@@ -53,3 +63,29 @@ iframe {
   margin-right: auto;
 }
 
+footer {
+	font-family:serif, georgian;
+	font-size:20px;
+	text-align:right;
+}
+hr {
+	border:0;
+	height:2px;
+	background-image:linear-gradient(
+		to right, #e7e7e7, #000
+	);
+	
+}
+
+a:link {
+	color:blueviolet;
+}
+a:visited {
+	color:royalblue;
+}
+a:hover {
+	color:peachpuff;
+}
+a:active {
+	color:aqua;
+}
