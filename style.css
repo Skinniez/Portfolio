@@ -50,7 +50,8 @@ h2 {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: serif,georgian;
   color: #0A0A0A;
   text-align: center;
@@ -64,7 +65,9 @@ h1 {
 h3 {
   font-size: 26px;
 }
-
+h4 {
+	font-size: 26px;
+}
 img,
 iframe {
   width: 70%;
