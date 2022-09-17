@@ -3,6 +3,25 @@ html {
 	height:100%;
 	width:100%;
 }
+
+header {
+	height:180px;
+	font-family: serif,georgian;
+	font-size:80px;
+	text-align:center;
+	
+}
+
+.logo {
+	font-family: serif, georgian;
+	font-size: 72px;
+	color: #0A0A0A;
+	text-align:center;
+	letter-spacing:-3;
+	margin: 0;
+	padding:20px;
+}
+/* body and type */
 body {
 	margin: 0;
 	font-family: serif, georgian;
@@ -12,7 +31,11 @@ body {
 p {
 	font-size:16;
 }
+<<<<<<< Updated upstream
 
+=======
+/* lists */
+>>>>>>> Stashed changes
 ul { 
 	display: inline-block; 
 	text-align: left; 
@@ -25,6 +48,7 @@ ol {
 li {
 	text-align:justify;
 }
+<<<<<<< Updated upstream
 header {
 	height:180px;
 	font-family: serif,georgian;
@@ -47,6 +71,9 @@ h2 {
 	font-size: 20px;
 	
 }
+=======
+/* heading */
+>>>>>>> Stashed changes
 h1,
 h2,
 h3,
@@ -60,13 +87,18 @@ h4 {
 h1 {
   font-size: 30px;
 }
-
+h2 {
+	margin:0px;
+	font-size: 20px;
+	
+}
 h3 {
   font-size: 26px;
 }
 h4 {
 	font-size: 18px;
 }
+/* image */
 img,
 iframe {
   width: 70%;
@@ -88,9 +120,11 @@ hr {
 	background-image:linear-gradient(
 		to right, #e7e7e7, #000
 	);
-	
+/* links */	
 }
-
+a {
+font-weight:700;
+}
 a:link {
 	color:black;
 }
@@ -102,4 +136,10 @@ a:hover {
 }
 a:active {
 	color:white;
+}
+/* elements */
+
+.border-top: {
+padding-top: 80px;
+border-top: 2px solid #000;
 }
