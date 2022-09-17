@@ -30,13 +30,12 @@ header {
 	margin: 0;
 	padding:20px;
 }
-header h2 {
-	font-family:serif,georgian;
-	color:#0A0A0A;
+h2 {
 	margin:0px;
 	font-size: 20px;
-	text-align:center;
+	
 }
+h1,
 h2,
 h3 {
   font-family: serif,georgian;
