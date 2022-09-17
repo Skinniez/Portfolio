@@ -1,34 +1,26 @@
 /* Styling the portfolio */
 
-text-align:center;
-
-h1 {
-  color: black;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  font-family: 'serif',georgia ;
-  font-size: 56px;
-}
-h2 { 
-  color:black;
-  background:antiquewhite;
-  text-align:center;
-  font-family: 'serif',georgia ;
-  font-size:35px;
+html, body {
+	height:100%;
+	width:100%;
 }
 body {
-  color:black;
-  margin:20px;
-  background:aliceblue;
-  padding:20px;
-  font-family: 'serif', georgia;
-  font-size:15px;
+	margin: 0;
+	font-family: serif, georgian;
+	background-color: 9b9b9b;
 }
-footer {
-  color:black;
-  background:antiquewhite;
-  text-align:center;
-  font-family: 'serif',georgia ;
-  font-size:35px;
+header {
+	height:150px;
+	background-color: e7e7e7;
 }
+.logo {
+	font-family: serif, georgian;
+	font-size: 72px;
+	color: black;
+	text-align:center;
+	letter-spacing:-3;
+	margin: 0;
+	padding:20px;
+}
+
+
